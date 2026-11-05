@@ -7,6 +7,7 @@ Adopted 2026-10-04. Security vetted at upstream commit `1231850a0bf1a0c0341fe408
 ## Changes
 
 - 2026-10-04: `CUSTOMIZATIONS.md`, `.github/workflows/sync-upstream.yml`: added by repo-adopt. Sync is fetch only (see below).
+- 2026-11-05: default branch set to `mattb/main` so the weekly `Check upstream` schedule fires (GitHub runs schedules only from the default branch). Actions limited to `actions/checkout@*`. The mirror branch stays clean for upstream comparison.
 
 ## Syncing upstream
 
